@@ -1,45 +1,57 @@
 Data Dictionary - Tidy.txt
 
-subjectId
+subjectId<br/>
     Integer value representing the id of the subject that was measured
     
-activityName
-    Name of the activity performed by the subject
-        WALKING
-        WALKING_UPSTAIRS
-        WALKING_DOWNSTAIRS
-        SITTING
-        STANDING
-        LAYING
+activityName<br/>
+    Name of the activity performed by the subject<br/>
+    <ul>
+        <li>WALKING</li>
+        <li>WALKING_UPSTAIRS</li>
+        <li>WALKING_DOWNSTAIRS</li>
+        <li>SITTING</li>
+        <li>STANDING</li>
+        <li>LAYING</li>
+    </ul>
 
-domain
-    The type of domain signal used for the measurement
-        Time
-        Frequency
+domain<br/>
+    The type of domain signal used for the measurement<br/>
+    <ul>
+        <li>Time</li>
+        <li>Frequency</li>
+    </ul>
         
-instrument
-    Instrument used to measure the subject
-        Gyroscope
-        Accelerometer
+instrument<br/>
+    Instrument used to measure the subject<br/>
+    <ul>
+        <li>Gyroscope</li>
+        <li>Accelerometer</li>
+    </ul>
         
-acceleration
-    The type of acceleration used when the subject was measured by an Accelerometer.  NA reported for any reading not from an Accelerometer.
-        Body
-        Gravity
+acceleration<br/>
+    The type of acceleration used when the subject was measured by an Accelerometer.  NA reported for any reading not from an Accelerometer.<br/>
+    <ul>
+        <li>Body</li>
+        <li>Gravity</li>
+    </ul>
         
-isJerk
+isJerk</br>
     Flag field indicating if this was a Jerk signal or not
     
-isMagnitude
+isMagnitude</br>
     Flag field indicating if this value was calculated using the magnitude.
     
-variable
-    The variable that was measured for this observation
-      Mean
-      StandardDeviation
+variable<br/>
+    The variable that was measured for this observation<br/>
+    <ul>
+      <li>Mean</li>
+      <li>StandardDeviation</li>
+     </ul>
       
-axis
-    The axis that was measured
-        X
-        Y
-        Z
+axis<br/>
+    The axis that was measured<br/>
+    <ul>
+        <li>X</li>
+        <li>Y</li>
+        <li>Z</li>
+    </ul>
