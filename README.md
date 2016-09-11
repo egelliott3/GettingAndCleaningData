@@ -8,8 +8,17 @@ This repository contains the following files:
   * Tidy.csv - This is the tidy data set that is created from running the run_analysis.R script.csv.
   * Codebook.md - This file contains details on the structure of Tidy.csv as well as an explanation of the run_analysis.R script file.
 
+# How To Run
 
-Full project assignment explanation below:
+The steps to run the script are:
+
+  * Download the zip file listed in Project Assignment
+  * Extract the files from the zip to the directory of your choice
+  * Open R or R Studio and set your working directory to <zipExtractionDirectory>\UCI HAR Dataset path
+  * Save the run_analysis.R file in the workinng directly
+  * Source the run_analysis.R file and it will product the Tidy.txt file in the working directory.
+
+# Project Assignment
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
