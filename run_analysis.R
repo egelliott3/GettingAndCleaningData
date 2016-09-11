@@ -117,4 +117,4 @@ groupBy = group_by(dtWorkingSet, subjectId, activityName, domain, instrument, ac
 dtTidy = summarize(groupBy, count = n(), average = mean(value, rm.na = TRUE))
 
 
-
+write.table(dtTidy, "./Tidy.txt", row.name=FALSE)
