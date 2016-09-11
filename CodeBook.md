@@ -1,8 +1,5 @@
-Data Dictionary - Tidy.csv
+Data Dictionary - Tidy.txt
 
-rowNum
-    Row number created by RStudio write.csv function
-    
 subjectId
     Integer value representing the id of the subject that was measured
     
